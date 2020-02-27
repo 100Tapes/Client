@@ -1,0 +1,42 @@
+.video {
+  padding: 10px;
+}
+
+.videoHolder {
+  display: inline-block;
+  width: 32%;
+}
+
+#searchText {
+  border: none;
+  border-bottom: 1px solid #1890ff;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 30px;
+  width: 200px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.4s 0.4s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+#button {
+  color: blue;
+  font-size: 30px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+#submitSearch {
+  text-align: center;
+  background-color: none;
+}
